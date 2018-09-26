@@ -1,0 +1,30 @@
+{
+  "name": "one25one/yii2-mytest",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "test"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Koskin",
+      "email": "25one@ukr.net",
+      "homepage": "https://github.com/25one/yii2-mytest",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "extra": {
+    "bootstrap": "one25one\\mytest\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "one25one\\mytest\\": "src"
+    }
+  }
+}
